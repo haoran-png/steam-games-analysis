@@ -11,7 +11,7 @@ This project explores a dataset of Steam games from 2025 to understand what make
 - Do newer games get better reviews?  
 - Which developers consistently publish highly rated games?  
 
----
+
 
 ## Tools
 - **Python**: `pandas`, `numpy`, `pathlib` (data cleaning and file handling)  
@@ -19,7 +19,7 @@ This project explores a dataset of Steam games from 2025 to understand what make
 - **SQL**: querying and exploration  
 - **BI Tool**: dashboards and visual summaries (e.g., Tableau or Power BI)  
 
----
+
 
 ## Dataset
 https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
