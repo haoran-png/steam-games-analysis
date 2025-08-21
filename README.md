@@ -1,7 +1,25 @@
-# Steam Game Data Project
+# Steam Game Data Analysis (2025)
 
-This project is an exploration of working with messy real-world data. Starting with a raw CSV of Steam games, I aim to clean and prepare the dataset using Python so that I can analyze it and answer specific questions about game trends, patterns, and player behavior.
+This project explores a dataset of Steam games from 2025 to understand what makes some games more popular, better rated, or more engaging than others. The analysis looks at questions such as whether newer games receive better reviews, which genres keep players active, and how pricing relates to playtime.  
 
-Right now, the focus is on cleaning: fixing formatting issues, handling null values, and making sure the data is structured and usable. Once the dataset is clean, I plan to define a few focused questions and use the data to investigate and answer them.
+---
 
-This project is also a way to learn more about building a basic data pipeline — going from raw input to insights — while practicing core data skills like preprocessing, exploration, and visualization.
+## Focus Questions
+- What genres have the highest user scores and playtimes?  
+- How does price relate to playtime?  
+- Which tags are most common in top-rated or most-owned games?  
+- Do newer games get better reviews?  
+- Which developers consistently publish highly rated games?  
+
+---
+
+## Tools
+- **Python**: `pandas`, `numpy`, `pathlib` (data cleaning and file handling)  
+- **Jupyter Notebooks**: reproducible workflow for analysis  
+- **SQL**: querying and exploration  
+- **BI Tool**: dashboards and visual summaries (e.g., Tableau or Power BI)  
+
+---
+
+## Dataset
+https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
