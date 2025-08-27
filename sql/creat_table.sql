@@ -1,5 +1,7 @@
-CREATE TABLE IF NOT EXISTS games (
-    app_id BIGINT,
+DROP TABLE IF EXISTS games;
+
+CREATE TABLE games (
+    app_id BIGINT PRIMARY KEY,
     name TEXT,
     release_date DATE,
     estimated_owners TEXT,
@@ -16,8 +18,10 @@ CREATE TABLE IF NOT EXISTS games (
     genres TEXT,
     tags TEXT,
     estimated_average_owners BIGINT,
-    name_lowercase TEXT
+    name_lowercase TEXT,
+    n_reviews INT,
     positive_ratio NUMERIC,
+    bayes_average NUMERIC
 );
 
 COPY games (
@@ -39,7 +43,9 @@ COPY games (
     tags,
     estimated_average_owners,
     name_lowercase,
+    n_reviews,
     positive_ratio,
+    bayes_average
 )
 FROM '/Users/banananakun./Documents/project/steam/data/games_final.csv'
-WITH (FORMAT csv, HEADER true);
+WITH (FORMAT csv, HEADER true, NULL 'Unknown');

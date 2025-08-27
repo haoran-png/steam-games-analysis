@@ -5,21 +5,17 @@ This project explores a dataset of Steam games from 2025 to understand what make
 ---
 
 ## Focus Questions
-- What genres have the highest user scores and playtimes?  
-- How does price relate to playtime?  
-- Which tags are most common in top-rated or most-owned games?  
-- Do newer games get better reviews?  
-- Which developers consistently publish highly rated games?  
-
-
+- To what extent do game genres influence user ratings and playtime?
+- What price ranges best balance ownership with player engagement?
+- Which tags are most strongly associated with highly rated or widely owned games?
+- How have patterns in user reviews changed across release periods?
+- Which developer strategies consistently lead to highly rated titles?
 
 ## Tools
 - **Python**: `pandas`, `numpy`, `pathlib` (data cleaning and file handling)  
 - **Jupyter Notebooks**: reproducible workflow for analysis  
 - **SQL**: querying and exploration  
 - **BI Tool**: dashboards and visual summaries (e.g., Tableau or Power BI)  
-
-
 
 ## Dataset
 https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
