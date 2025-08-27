@@ -1,0 +1,45 @@
+CREATE TABLE IF NOT EXISTS games (
+    app_id BIGINT,
+    name TEXT,
+    release_date DATE,
+    estimated_owners TEXT,
+    required_age INT,
+    price NUMERIC,
+    user_score NUMERIC,
+    positive INT,
+    negative INT,
+    recommendations INT,
+    average_playtime_forever INT,
+    developers TEXT,
+    publishers TEXT,
+    categories TEXT,
+    genres TEXT,
+    tags TEXT,
+    estimated_average_owners BIGINT,
+    name_lowercase TEXT
+    positive_ratio NUMERIC,
+);
+
+COPY games (
+    app_id,
+    name,
+    release_date,
+    estimated_owners,
+    required_age,
+    price,
+    user_score,
+    positive,
+    negative,
+    recommendations,
+    average_playtime_forever,
+    developers,
+    publishers,
+    categories,
+    genres,
+    tags,
+    estimated_average_owners,
+    name_lowercase,
+    positive_ratio,
+)
+FROM '/Users/banananakun./Documents/project/steam/data/games_final.csv'
+WITH (FORMAT csv, HEADER true);
