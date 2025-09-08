@@ -1,21 +1,21 @@
 # Steam Game Data Analysis (2025)
 
-This project explores a dataset of Steam games from 2025 to understand what makes some games more popular, better rated, or more engaging than others. The analysis looks at questions such as whether newer games receive better reviews, which genres keep players active, and how pricing relates to playtime.  
+This project analyzes a dataset of Steam games from 2025 to explore what drives popularity, ratings, and engagement. The study examines review trends, genre performance, pricing effects, and developer strategies to identify patterns behind successful titles.
 
 ---
 
 ## Focus Questions
-- To what extent do game genres influence user ratings and playtime?
-- What price ranges best balance ownership with player engagement?
-- Which tags are most strongly associated with highly rated or widely owned games?
-- How have patterns in user reviews changed across release periods?
-- Which developer strategies consistently lead to highly rated titles?
+- How do different game genres influence both player satisfaction and long-term engagement, and are certain genres consistently under or overperforming relative to others?
+- How does pricing affect both reach and engagement, and where is the “value-for-money” sweet spot across the market?
+- Which tags are most predictive of strong adoption or high ratings, and do certain tag combinations amplify or dilute success?
+- How have user sentiment and rating trends shifted across release periods, and are newer games reviewed more critically or more favorably than older ones?
+- Which developer strategies are most consistently linked to highly rated or widely adopted titles?
 
 ## Tools
 - **Python**: `pandas`, `numpy`, `pathlib` (data cleaning and file handling)  
 - **Jupyter Notebooks**: reproducible workflow for analysis  
-- **SQL**: querying and exploration  
-- **BI Tool**: dashboards and visual summaries (e.g., Tableau or Power BI)  
+- **SQL**: structured exploration and querying
+- **Power BI**: interactive dashboards and visual summaries
 
 ## Dataset
 https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
